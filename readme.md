@@ -1,16 +1,15 @@
 # Rest Server Menggunakan Codeigniter 
 
-* Cara Menggunakan Rest Server Codeigniter
 1. Import Database 
 ```
 $ mysql -u root -p
-$ create database wpu-rest
-$ use wpu-rest
+$ create database wpu-rest;
+$ use wpu-rest;
 
 ```
 2. Masukan Table mahasiswa.
-	2.1 Buka file mahasiswa.sql
-	2.2 import sql
+- Buka file mahasiswa.sql
+- Import sql
 3. Buat file bernama .htaccess untuk menghilangkan index.php
 ```
     RewriteEngine on
