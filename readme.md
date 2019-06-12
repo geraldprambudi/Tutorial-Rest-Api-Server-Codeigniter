@@ -1,4 +1,7 @@
 # Rest Server Menggunakan Codeigniter 
+
+Tutorial Lengkapnya https://www.bewoksatukosong.com/2019/06/cara-membuat-rest-api-server-codeigniter-mysql-2019.html
+
 1. Membuat dan Import Database Melalui Terminal atau cmd
 ```
 $ mysql -u root -p
