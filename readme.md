@@ -1,6 +1,6 @@
 # Rest Server Menggunakan Codeigniter 
 
-1. Import Database Melalui Terminal atau cmd
+1. Membuat dan Import Database Melalui Terminal atau cmd
 ```
 $ mysql -u root -p
 $ create database wpu_rest;
@@ -19,7 +19,7 @@ INSERT INTO `mahasiswa` (`id`, `nrp`, `nama`, `email`, `jurusan`) VALUES
 (5, '135520103', 'gerald', 'gerald94@gmail.com', 'Teknik Informatika'),
 (6, '135520103', 'Diani', 'Diani@gmail.com', 'akutansi');
 ```
-2. Untuk phpmyadmin
+2. Membuat database dan import menggunakan phpmyadmin
 - Buat database baru wpu_rest
 - import file mahasiswa.sql
 - Done
