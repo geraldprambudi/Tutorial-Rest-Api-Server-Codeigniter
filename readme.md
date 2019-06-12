@@ -20,7 +20,22 @@ INSERT INTO `mahasiswa` (`id`, `nrp`, `nama`, `email`, `jurusan`) VALUES
 ```
 2. Membuat database dan import menggunakan phpmyadmin
 - Buat database baru wpu_rest
-- import file mahasiswa.sql
+- import sql (klik sql)
+```
+CREATE TABLE `mahasiswa` (
+  `id` int(11) NOT NULL,
+  `nrp` char(9) NOT NULL,
+  `nama` varchar(250) NOT NULL,
+  `email` varchar(250) DEFAULT NULL,
+  `jurusan` varchar(64) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `mahasiswa` (`id`, `nrp`, `nama`, `email`, `jurusan`) VALUES
+(1, '135520103', 'maya septha', 'maya95@gmail.com', 'software enginer'),
+(3, '135520103', 'pradina', 'pradina94@gmail.com', 'Robotic'),
+(5, '135520103', 'gerald', 'gerald94@gmail.com', 'Teknik Informatika'),
+(6, '135520103', 'Diani', 'Diani@gmail.com', 'akutansi');
+```
 - Done
 
 3. Buat file bernama .htaccess untuk menghilangkan index.php
