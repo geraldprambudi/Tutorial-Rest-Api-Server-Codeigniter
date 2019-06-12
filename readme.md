@@ -3,7 +3,7 @@
 ```
 $ mysql -u root -p
 $ create database wpu_rest;
-$ use wpu-rest;
+$ use wpu_rest;
 $ CREATE TABLE `mahasiswa` (
   `id` int(11) NOT NULL,
   `nrp` char(9) NOT NULL,
