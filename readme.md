@@ -1,5 +1,4 @@
 # Rest Server Menggunakan Codeigniter 
-
 1. Membuat dan Import Database Melalui Terminal atau cmd
 ```
 $ mysql -u root -p
