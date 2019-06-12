@@ -43,7 +43,7 @@ INSERT INTO `mahasiswa` (`id`, `nrp`, `nama`, `email`, `jurusan`) VALUES
 ```
 5. Buka file di folder config -> config.php
 ```
-$config['base_url'] = 'http://127.0.0.1/rest_server_new/';
+$config['base_url']   = 'http://127.0.0.1/rest_server_new/';
 
 $config['index_page'] = '';
 ```
@@ -52,7 +52,7 @@ $config['index_page'] = '';
 tambahkan
 ```
 $autoload['libraries'] = array('database');
-$autoload['helper'] = array('url');
+$autoload['helper']    = array('url');
 ```
 7. Jangan lupa aktifkan web server anda
 8. Untuk test-Nya gunakan POSTMAN
